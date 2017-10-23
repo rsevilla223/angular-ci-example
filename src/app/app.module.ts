@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RedComponent } from './red/red.component';
 import { BlueComponent } from './blue/blue.component';
+import { GreenComponent } from './green/green.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RedComponent,
-    BlueComponent
+    BlueComponent,
+    GreenComponent
   ],
   imports: [
     BrowserModule,

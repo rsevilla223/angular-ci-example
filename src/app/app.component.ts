@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
     <nav>
       <a routerLink="/red">RED</a>
       <a routerLink="/blue">BLUE</a>
+      <a routerLink="/green">GREEN</a>
     </nav>
     <router-outlet></router-outlet>
   `
