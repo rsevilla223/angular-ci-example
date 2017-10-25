@@ -7,6 +7,7 @@ import { RedComponent } from './red/red.component';
 import { BlueComponent } from './blue/blue.component';
 import { GreenComponent } from './green/green.component';
 import { SiteHeaderComponent } from './site-header/site-header.component';
+import { FrontCarouselComponent } from './front-carousel/front-carousel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SiteHeaderComponent } from './site-header/site-header.component';
     RedComponent,
     BlueComponent,
     GreenComponent,
-    SiteHeaderComponent
+    SiteHeaderComponent,
+    FrontCarouselComponent
   ],
   imports: [
     BrowserModule,

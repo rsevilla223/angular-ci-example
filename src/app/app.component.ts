@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <app-site-header></app-site-header>
+    <front-carousel></front-carousel>
     <h1> Angular CI Example! </h1>
     <nav>
       <a routerLink="/red">RED</a>
