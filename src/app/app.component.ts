@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
+    <app-site-header></app-site-header>
     <h1> Angular CI Example! </h1>
     <nav>
       <a routerLink="/red">RED</a>

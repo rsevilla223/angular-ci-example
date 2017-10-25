@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { RedComponent } from './red/red.component';
 import { BlueComponent } from './blue/blue.component';
 import { GreenComponent } from './green/green.component';
+import { SiteHeaderComponent } from './site-header/site-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RedComponent,
     BlueComponent,
-    GreenComponent
+    GreenComponent,
+    SiteHeaderComponent
   ],
   imports: [
     BrowserModule,
