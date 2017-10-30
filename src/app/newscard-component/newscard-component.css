@@ -1,0 +1,127 @@
+.card {
+    width: 40%;
+    background: #373d47;
+}
+
+.card #story-image {
+  width: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+    color: white;
+    width: 100%
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  color: #f984cc;
+}
+
+
+
+.credentials h4 {
+  padding-left: 60px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.credentials p {
+  padding-left: 60px;
+
+}
+
+#avatar {
+
+    float:left;
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+
+    /*add borders*/
+
+    border-style: solid;
+    border-width: medium;
+
+    /* make a square container */
+    width: 50px;
+    height: 50px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width:100%;
+    font-size: 50%;
+  }
+
+  .container {
+    display: none;
+  }
+
+
+
+  .card #story-image {
+
+  max-width: 100%;
+  }
+
+  .credentials {
+    display: none;
+  }
+
+  .content {
+    display: none;
+  }
+
+  h2 {
+    float: left;
+    position: relative;
+    bottom: 100px;
+
+    /*color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;*/
+
+
+  }
+
+  .container {
+    display: none;
+  }
+
+  /*.container h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+
+}*/
+
+
+
+
+
+}
