@@ -12,16 +12,18 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.text {
+  font-family: 'Raleway', sans-serif;
+  color: #f984cc;
+  padding: 2%;
+  font-size: 30px;
+}
+
 /* Add some padding inside the card container */
-.container {
+.info {
     padding: 2px 16px;
     color: white;
     width: 100%
-}
-
-h2{
-  font-family: 'Raleway', sans-serif;
-  color: #f984cc;
 }
 
 
@@ -62,66 +64,33 @@ h2{
     border-radius: 50%;
 }
 
-.content {
-  width: 100%;
-}
-
 @media screen and (max-width: 600px) {
   .card {
     width:100%;
     font-size: 50%;
+    position: relative;
   }
 
-  .container {
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+  }
+
+  .text {
+  background-color: rgba(38, 38, 38, .5);
+  color: white;
+  font-size: 16px;
+  padding: 10px 32px;
+
+  }
+
+  .info {
     display: none;
   }
-
-
 
   .card #story-image {
-
   max-width: 100%;
   }
-
-  .credentials {
-    display: none;
-  }
-
-  .content {
-    display: none;
-  }
-
-  h2 {
-    float: left;
-    position: relative;
-    bottom: 100px;
-
-    /*color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;*/
-
-
-  }
-
-  .container {
-    display: none;
-  }
-
-  /*.container h2 span {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
-
-}*/
-
-
-
-
 
 }
